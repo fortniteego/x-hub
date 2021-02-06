@@ -1,8 +1,4 @@
-nouni=false
-local function lo(l)
-loadstring(game:HttpGet(l,true))()
-nouni=true
-end
+
 if game.GameId==1962086868 then
-lo("https://raw.githubusercontent.com/fortniteego/x-hub/main/toh")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fortniteego/x-hub/main/toh",true))()
 end
